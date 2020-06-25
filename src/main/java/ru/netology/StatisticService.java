@@ -1,3 +1,5 @@
+package ru.netology;
+
 public class StatisticService {
 
     public long findMax(long[] incomes){
@@ -16,4 +18,5 @@ public class StatisticService {
         }
         return sum;
     }
+
 }

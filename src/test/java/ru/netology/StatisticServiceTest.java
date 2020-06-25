@@ -1,11 +1,12 @@
-import org.junit.jupiter.api.Test;
+package ru.netology;
 
+import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 class StatisticServiceTest {
 
     @Test
-    void findMax(){
+    void shouldFindMax(){
         StatisticService service = new StatisticService();
 
         long[] incomesInBillions = {1, 2, 5, 8, 4, 5, 3, 8, 6, 11, 11, 12};
@@ -16,7 +17,7 @@ class StatisticServiceTest {
     }
 
     @Test
-    void calculateSum(){
+    void shouldCalculateSum(){
         StatisticService service = new StatisticService();
 
         long[] incomesInBillions = {1, 2, 5, 8, 4, 5, 3, 8, 6, 11, 11, 12};
@@ -25,6 +26,5 @@ class StatisticServiceTest {
         long actual = service.calculateSum(incomesInBillions);
         assertEquals(expected, actual);
     }
-
 
 }
