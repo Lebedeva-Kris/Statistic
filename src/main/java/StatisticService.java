@@ -8,4 +8,12 @@ public class StatisticService {
                 currentMax = income;
             return currentMax;
     }
+
+    public long calculateSum(long[] incomes){
+        long sum = 0;
+        for (long income : incomes) {
+            sum += income;
+        }
+        return sum;
+    }
 }
