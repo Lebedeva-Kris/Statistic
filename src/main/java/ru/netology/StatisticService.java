@@ -19,4 +19,10 @@ public class StatisticService {
         return sum;
     }
 
+    public long calculateAverage(long[] incomes){
+        long average = calculateSum(incomes) / incomes.length;
+
+        return average;
+    }
+
 }
