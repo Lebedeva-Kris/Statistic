@@ -1,4 +1,4 @@
-# JaCoCo Counters #
+# JaCoCo counters #
  **INSTRUCTION**: The amount of code that can be executed or missed.
  
  **LINE**: Executed when at least one instruction that is assigned to this line has been executed.
